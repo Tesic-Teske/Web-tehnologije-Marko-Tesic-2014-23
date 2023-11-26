@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #FFFFFF, #507BAF);
+}
+
+header {
+}
+
+.nav {
+    width: 1200px;
+    min-height: 100px;
+    margin: 0 auto;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.nav .logo {
+    height: 100px;
+    width: auto;
+}
+
+.meni {
+    list-style-type: none;
+}
+
+.meni li {
+    transition: transform .5s ease;
+    float: left;
+    padding: 15px 20px;
+}
+
+.meni li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #265B90;
+}
+
+.meni li:hover {
+    transform: scale(1.2);
+}
+
+.sadrzaj {
+}
+
+.prvi {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    color: #FFFFFF;
+}
+
+.prvi img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.prvi .prvi-drzac-sadrzaja {
+    position: absolute;
+    height: fit-content;
+    width: 500px;
+    top: 30%;
+    left: 15%;
+}
+
+.prvi .prvi-drzac-sadrzaja h1 {
+    font-size: 36px;
+}
+
+.prvi .prvi-drzac-sadrzaja p {
+    font-size: 18px;
+}
+
+.drugi {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 80px 0;
+    gap: 30px;
+}
+
+.drugi h3 {
+    font-style: italic;
+}
+
+.drugi .usluga1, .drugi .usluga2, .drugi .usluga3 {
+    padding: 40px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #08223D;
+    border-radius: 20px;
+    box-shadow: 0 2px 3px 0 #08223D;
+    background: #265B90;
+    color: #FFF;
+    transition: transform 0.3s ease-in-out;
+}
+.drugi .usluga1 i, .drugi .usluga2 i, .drugi .usluga3 i {
+    font-size: 50px;
+    color: #FFF;
+}
+
+.drugi .usluga1:hover, .drugi .usluga2:hover, .drugi .usluga3:hover {
+    transform: scale(1.1);
+}
+.treci {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+    gap: 30px;
+}
+
+.treci-text {
+    float: left;
+    width: 600px;
+    line-height: 34px;
+}
+
+.treci-slika {
+    float: right;
+    height: 100%;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.treci .naslov {
+    background: #3570A8;
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: #FFF;
+    width: 800px
+}
+
+.treci .podnaslov {
+    width: 800px;
+    line-height: 34px;
+}
+
+.treci li {
+    height: 200px;
+    list-style-type: none;
+    clear: both;
+    margin-bottom: 60px;
+}
+
+.treci li span {
+    background: #4385C1;
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: #FFF;
+    font-weight: 600;
+    font-style: italic;
+}
+
+footer {
+    height: 60px;
+    background: #092139;
+    clear: both;
+}
+
+footer .footer-sadrzaj {
+    width: 1200px;
+    margin: 0 auto;
+    height: 60px;
+    color: #FFF;
+}
+
+footer p {
+    display: block;
+    float: left;
+}
+
+footer ul {
+    display: block;
+    float: right;
+}
+
+.drustvene-mreze {
+    list-style-type: none;
+}
+
+.drustvene-mreze {
+    margin: 0 auto;
+}
+
+.drustvene-mreze li {
+    float: right;
+    padding: 0px 6px;
+    margin: 11px 0;
+}
+
+.drustvene-mreze li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #092139;
+}
+
+.drustvene-mreze li a i {
+    color: #FFF;
+}
+
+.sadrzaj-proizvodi, .sadrzaj-usluge, .sadrzaj-kontakt, .sadrzaj-autor {
+    min-height: 100vh;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0;
+    gap: 30px;
+}
+
+.sadrzaj-proizvodi h1, .sadrzaj-usluge h1, .sadrzaj-kontakt h1, .sadrzaj-autor h1 {
+    height: 40px;
+    background: #3570A8;
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: #FFF;
+    margin-bottom: 60px;
+}
+
+.sadrzaj-proizvodi .prvi, .sadrzaj-proizvodi .drugi, .sadrzaj-proizvodi .treci, .sadrzaj-proizvodi .cetvrti {
+    display: block;
+    width: 460px;
+    padding: 40px;
+    border-radius: 40px;
+    background: rgba(17, 17, 17, 0.2);
+    float: left;
+    position: relative;
+    height: 350px;
+    color: #FFFFFF;
+    margin: 0 30px 30px;
+}
+
+.sadrzaj-proizvodi .treci .naslov, .sadrzaj-proizvodi .cetvrti .naslov {
+    color: #FFF;
+}
+
+.sadrzaj-proizvodi .prvi .kamera, .sadrzaj-proizvodi .drugi .kamera, .sadrzaj-proizvodi .treci .kamera, .sadrzaj-proizvodi .cetvrti .kamera {
+    margin-bottom: 30px;
+}
+
+.sadrzaj-proizvodi .naslov {
+    font-style: italic;
+    color: #3570A8;
+    font-size: 28px;
+}
+
+.sadrzaj-proizvodi .treci .naslov {
+    background: none;
+}
+
+.sadrzaj-proizvodi .prvi .kamera-logo, .nvr-logo, .senzori-pokreta-logo, .odrzavanje-logo {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    width: 140px;
+    height: auto;
+}
+
+.sadrzaj-proizvodi .cetvrti .naslov {
+    margin-top: 30%;
+}
+
+.sadrzaj-galerija {
+    clear: both;
+    padding-top: 50px;
+}
+
+.sadrzaj-galerija .slika {
+    width: 30%;
+    height: 470px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #FFFFFF;
+    transition: transform .5s ease;
+    float: left;
+    margin: 0 30px 20px 0;
+    background: #3570A8;
+}
+
+.sadrzaj-galerija .slika-galerija {
+    transition: transform .5s ease;
+    width: 100%;
+    height: 200px;
+}
+
+.sadrzaj-galerija .slika:hover .slika-galerija {
+    transform: scale(1.2);
+}
+
+.sadrzaj-galerija .karakteristike .naziv {
+    color: #FFFFFF;
+    padding-left: 25px;
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+
+.sadrzaj-galerija .karakteristike ul {
+    color: #FFFFFF;
+    padding-left: 25px;
+    margin-top: 0;
+}
+
+.sadrzaj-usluge .prvi, .sadrzaj-usluge .drugi, .sadrzaj-usluge .treci, .sadrzaj-usluge .cetvrti, .sadrzaj-usluge .peti {
+    display: block;
+    border-radius: 40px;
+    background: rgba(17, 17, 17, 0.2);
+    position: relative;
+    height: 300px;
+    color: #FFFFFF;
+    overflow: hidden;
+    width: 1160px;
+    margin-bottom: 40px;
+}
+
+.sadrzaj-usluge .usluga {
+    margin: 40px 0;
+    float: left;
+    width: 500px;
+}
+
+.sadrzaj-usluge img {
+    position: relative;
+    height: 300px;
+    width: 400px;
+}
+
+.sadrzaj-usluge .konfiguracija, .sadrzaj-usluge .savetovanje , .sadrzaj-usluge .obuka {
+    float: right;
+    left: -400px;
+    animation: slideAnimation 1.5s ease-in-out forwards;
+}
+
+.sadrzaj-usluge .servisiranje, .sadrzaj-usluge .integracija {
+    float: left;
+    margin-right: 40px;
+    left: 200px;
+    animation: slideAnimation 1.5s ease-in-out forwards;
+}
+
+@keyframes slideAnimation {
+    to {
+        left: 0;
+    }
+}
+
+.sadrzaj-usluge .prvi,.sadrzaj-usluge .treci,.sadrzaj-usluge .peti {
+    padding: 0  0 0 40px;
+    float: left;
+}
+
+.sadrzaj-usluge .drugi,.sadrzaj-usluge .cetvrti {
+    padding: 0  40px 0 0;
+    float: right;
+}
+
+.sadrzaj-kontakt .kontakt-forma {
+    display: block;
+    border-radius: 40px;
+    background: rgba(17, 17, 17, 0.2);
+    height: 500px;
+    color: #FFFFFF;
+    overflow: hidden;
+    width: 600px;
+    padding: 40px;
+}
+
+.kontakt-forma form input  {
+    width: 100%;
+    margin-bottom: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #3570A8;
+}
+
+.kontakt-forma form label {
+    width: 100%;
+}
+
+.kontakt-forma form button {
+    height: 40px;
+    background: #3570A8;
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: 1px solid #3570A8;
+    color: #FFF;
+    width: 160px;
+    float: right;
+    cursor: pointer;
+}
+
+.sadrzaj-autor .bio {
+    display: block;
+    border-radius: 40px;
+    background: rgba(17, 17, 17, 0.2);
+    height: auto;
+    color: #FFFFFF;
+    overflow: hidden;
+    width: 600px;
+    padding: 40px;
+}
+
+.sadrzaj-autor .bio i {
+    margin-right: 15px;
+}
+
+.sadrzaj-autor .onsnovne-informacije {
+    width: 55%;
+    float: left;
+}
+
+.sadrzaj-autor .profilna-slika {
+    width: 35%;
+    float: left;
+    margin-right: 40px;
+}
+
+.sadrzaj-autor .kratak-bio {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
